@@ -5,3 +5,5 @@ from django.http import Http404
 
 def students_list(request):
     return render(request, 'students_list.html', {})
+
+
